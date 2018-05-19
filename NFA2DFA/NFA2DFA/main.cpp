@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "nfa_parser.h"
+#include "parser.h"
 
 using namespace std;
 
@@ -11,7 +11,7 @@ void create_dfa(const string& input,const string& output)
 
 
         cout << "Loading NFA File : " << nfa_filename << endl;
-        nfa_parser parser(nfa_filename);
+        parser parser(nfa_filename);
         nfa automata = parser.create_nfa();
 
         cout << "NFA:\n\n" << automata.tostring() << endl << endl;

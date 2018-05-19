@@ -140,13 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="nfa.cpp" />
-    <ClCompile Include="nfa_parser.cpp" />
-    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="nfa2dfa.cpp" />
+    <ClCompile Include="parser.cpp" />
+    <ClCompile Include="utility.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="nfa.h" />
-    <ClInclude Include="nfa_parser.h" />
+    <ClInclude Include="nfa2dfa.h" />
+    <ClInclude Include="parser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

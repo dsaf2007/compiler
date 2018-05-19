@@ -1,8 +1,8 @@
 #include <queue>
 #include <iostream>
 #include <sstream>
-#include "nfa.h"
-#include "utils.cpp"
+#include "nfa2dfa.h"
+#include "utility.cpp"
 
 string error_message = "NFA Creation Error : ";
 

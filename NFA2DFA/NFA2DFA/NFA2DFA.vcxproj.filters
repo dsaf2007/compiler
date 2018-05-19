@@ -18,21 +18,21 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="nfa.cpp">
+    <ClCompile Include="nfa2dfa.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="nfa_parser.cpp">
+    <ClCompile Include="parser.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="utils.cpp">
+    <ClCompile Include="utility.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="nfa.h">
+    <ClInclude Include="nfa2dfa.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="nfa_parser.h">
+    <ClInclude Include="parser.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
